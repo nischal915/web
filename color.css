@@ -1,0 +1,92 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General styles for body */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Container to center content */
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Header section */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 30px 0;
+    text-align: center;
+}
+
+/* Section for course overview */
+.overview {
+    background-color: #fff;
+    padding: 40px 0;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.overview h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.overview p {
+    font-size: 1.2em;
+    color: #555;
+}
+
+/* Units list section */
+.units {
+    background-color: #fff;
+    padding: 40px 0;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.units h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.units ul {
+    list-style-type: none;
+}
+
+.units ul li {
+    margin-bottom: 10px;
+}
+
+.units ul li a {
+    text-decoration: none;
+    color: #0066cc;
+    font-size: 1.1em;
+    transition: color 0.3s;
+}
+
+.units ul li a:hover {
+    color: #003366;
+}
+
+/* Footer section */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    font-size: 1em;
+}
