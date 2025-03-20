@@ -3,61 +3,138 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Web Technology-I (HTML + CSS)</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-        }
-        header {
-            background-color: #333;
-            color: white;
-            padding: 20px;
-            text-align: center;
-        }
-        section {
-            margin: 20px;
-            padding: 20px;
-            background-color: #fff;
-            border-radius: 8px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-        }
-        h2 {
-            color: #333;
-        }
-        footer {
-            background-color: #333;
-            color: white;
-            text-align: center;
-            padding: 10px;
-            position: fixed;
-            width: 100%;
-            bottom: 0;
-        }
-    </style>
+    <title>Programming Concepts & Logics</title>
 </head>
 <body>
     <header>
-        <h1>Web Technology-I (HTML + CSS)</h1>
+        <h1>Programming Concepts & Logics</h1>
+        <p>Programming is the backbone of all computing systems, and understanding its fundamental concepts and logics is essential for every software developer.</p>
     </header>
 
     <section>
-        <h2>HTML (Hypertext Markup Language)</h2>
-        <p>HTML is used to structure content on the web. It uses elements like:</p>
+        <h2>1. Programming Concept</h2>
+        <p>Programming is the process of writing instructions that a computer can execute. It involves using a programming language to give the computer specific instructions to solve a problem or complete a task.</p>
+
+        <h3>1.1 Introduction to Programming Languages</h3>
+        <p>Programming languages are the tools developers use to write programs. They allow programmers to express logical sequences in a way that the computer can understand. Some common programming languages include Python, Java, C, C++, JavaScript, and Ruby.</p>
+
+        <h3>1.2 Types of Programming Languages</h3>
         <ul>
-            <li><strong>&lt;html&gt;:</strong> The root element of an HTML document.</li>
-            <li><strong>&lt;head&gt;:</strong> Contains meta-information like the title and link to stylesheets.</li>
-            <li><strong>&lt;body&gt;:</strong> Contains the visible content of the webpage.</li>
+            <li><strong>Low-Level Languages:</strong> These languages are closer to machine language and are often used for system programming. Examples: Assembly language, machine code.</li>
+            <li><strong>High-Level Languages:</strong> These languages are more user-friendly and closer to human languages. They are used for application development. Examples: Python, Java, C, C++.</li>
+            <li><strong>Fourth-Generation Languages (4GL):</strong> These are higher-level programming languages designed to be closer to human languages, enabling easier software development. Examples: SQL, MATLAB, and R.</li>
         </ul>
 
-        <h2>CSS (Cascading Style Sheets)</h2>
-        <p>CSS is used to style HTML content, such as setting colors, fonts, and layouts. CSS selectors target HTML elements to apply styles.</p>
+        <h3>1.3 Compiler, Interpreter, and Assembler</h3>
+        <p>These are tools that help convert high-level code into machine language:</p>
+        <ul>
+            <li><strong>Compiler:</strong> A compiler translates the entire high-level code into machine language before execution. Example: GCC for C programming.</li>
+            <li><strong>Interpreter:</strong> An interpreter translates the code line by line and executes it immediately. Example: Python interpreter.</li>
+            <li><strong>Assembler:</strong> An assembler converts assembly language code into machine code.</li>
+        </ul>
+
+        <h3>1.4 Syntax, Semantic, and Runtime Errors</h3>
+        <ul>
+            <li><strong>Syntax Errors:</strong> Errors that occur when the code violates the syntax rules of the programming language. Example: missing a semicolon in C.</li>
+            <li><strong>Semantic Errors:</strong> These occur when the logic of the program is incorrect but the syntax is correct. Example: calculating the wrong result.</li>
+            <li><strong>Runtime Errors:</strong> These occur when the program is running, such as attempting to divide by zero.</li>
+        </ul>
+
+        <h3>1.5 Control Structures</h3>
+        <p>Control structures allow developers to control the flow of a program. The three main types are:</p>
+        <ul>
+            <li><strong>Sequence:</strong> Instructions are executed in the order in which they appear in the program.</li>
+            <li><strong>Selection:</strong> Decision-making structures that allow the program to choose between different paths. Example: if, else, switch.</li>
+            <li><strong>Iteration:</strong> Repeating a set of instructions a number of times. Example: for loops, while loops.</li>
+        </ul>
+
+        <h3>1.6 Program Design Tools</h3>
+        <ul>
+            <li><strong>Algorithm:</strong> A step-by-step procedure to solve a problem or complete a task.</li>
+            <li><strong>Flowchart:</strong> A visual representation of an algorithm using shapes to denote different types of instructions.</li>
+            <li><strong>Pseudocode:</strong> A plain language description of the steps in an algorithm.</li>
+        </ul>
+
+        <h3>1.7 Data Representation</h3>
+        <ul>
+            <li><strong>Absolute Binary:</strong> Representation of numbers in binary format.</li>
+            <li><strong>BCD (Binary-Coded Decimal):</strong> A way to represent decimal numbers in binary form.</li>
+            <li><strong>ASCII:</strong> A standard for representing characters using numeric codes.</li>
+            <li><strong>Unicode:</strong> A broader standard for character encoding, supporting multiple languages and symbols.</li>
+        </ul>
+
+        <h2>2. C Programming Language</h2>
+        <p>C is a general-purpose, procedural programming language used for system and application software development. It is known for its efficiency and flexibility.</p>
+
+        <h3>2.1 Features of C Language</h3>
+        <ul>
+            <li><strong>Simple and Easy to Learn:</strong> C is simple in terms of syntax, making it easy to learn and use.</li>
+            <li><strong>Portability:</strong> Programs written in C can be executed on different types of computers with little or no modification.</li>
+            <li><strong>Rich Set of Operators:</strong> C has a wide variety of operators, including arithmetic, logical, relational, and bitwise operators.</li>
+            <li><strong>Low-level Manipulation:</strong> C allows for low-level manipulation of data, making it suitable for system-level programming.</li>
+        </ul>
+
+        <h3>2.2 Structure of C Program</h3>
+        <p>A basic C program consists of the following components:</p>
+        <ul>
+            <li><strong>Preprocessor Directives:</strong> Instructions for the preprocessor (e.g., <code>#include</code>).</li>
+            <li><strong>Main Function:</strong> The entry point of every C program.</li>
+            <li><strong>Statements and Expressions:</strong> Instructions to be executed.</li>
+        </ul>
+
+        <h3>2.3 C Preprocessor and Header Files</h3>
+        <p>Before the program is compiled, the preprocessor handles tasks such as including external libraries through header files (e.g., <code>#include <stdio.h></code>).</p>
+
+        <h3>2.4 Character Set and Data Types in C</h3>
+        <ul>
+            <li><strong>Character Set:</strong> C uses the ASCII character set to represent letters, digits, and special symbols.</li>
+            <li><strong>Data Types:</strong> C supports various data types like int, float, char, double, and more.</li>
+        </ul>
+
+        <h3>2.5 Constants and Variables</h3>
+        <ul>
+            <li><strong>Constants:</strong> Fixed values used in a program that do not change during execution. Example: <code>#define PI 3.14</code>.</li>
+            <li><strong>Variables:</strong> Containers for storing data values that may change during the program execution.</li>
+        </ul>
+
+        <h3>2.6 Operators and Expressions</h3>
+        <p>C supports a variety of operators, including:</p>
+        <ul>
+            <li><strong>Arithmetic Operators:</strong> +, -, *, /, %</li>
+            <li><strong>Relational Operators:</strong> ==, !=, >, <, >=, <=</li>
+            <li><strong>Logical Operators:</strong> &&, ||, !</li>
+            <li><strong>Assignment Operators:</strong> =, +=, -=, *=, /=</li>
+        </ul>
+
+        <h3>2.7 Input/Output Functions</h3>
+        <p>Input and output functions in C include:</p>
+        <ul>
+            <li><strong>scanf():</strong> Used to accept input from the user.</li>
+            <li><strong>printf():</strong> Used to display output to the user.</li>
+        </ul>
+
+        <h3>2.8 Control Statements</h3>
+        <p>C includes various control statements for decision making and looping:</p>
+        <ul>
+            <li><strong>If-else:</strong> Conditional execution based on the truth value of a statement.</li>
+            <li><strong>Switch:</strong> Multiple condition check for different cases.</li>
+            <li><strong>For Loop:</strong> A loop that runs a fixed number of times.</li>
+            <li><strong>While Loop:</strong> A loop that runs as long as a condition is true.</li>
+        </ul>
+
+        <h3>2.9 Arrays and Strings in C</h3>
+        <p>Arrays are used to store multiple values in a single variable, and strings are arrays of characters:</p>
+        <ul>
+            <li><strong>1D and 2D Arrays:</strong> Arrays can be one-dimensional or two-dimensional for organizing data.</li>
+            <li><strong>String Functions:</strong> Functions like <code>strlen()</code>, <code>strcat()</code>, and <code>strcpy()</code> help manipulate strings.</li>
+        </ul>
+
+        <h2>3. Conclusion</h2>
+        <p>Understanding programming concepts and mastering logic design are essential steps in becoming a proficient software developer. From basic control structures to complex data manipulation, the knowledge of these concepts allows developers to create efficient and effective software systems.</p>
     </section>
 
     <footer>
-        <p>&copy; 2025 Web Technologies</p>
+        <p>&copy; 2025 Programming Concepts & Logics - All Rights Reserved</p>
     </footer>
 </body>
 </html>
