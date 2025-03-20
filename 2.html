@@ -39,31 +39,122 @@
     </style>
 </head>
 <body>
-    <header>
-        <h1>Number System and Conversion (Boolean Logic)</h1>
-    </header>
-
+    
     <section>
-        <h2>What is a Number System?</h2>
-        <p>The number system is a way of representing numbers using digits or symbols. In computing, common number systems include:</p>
-        <ul>
-            <li><strong>Binary:</strong> Base-2 system, consisting of two symbols: 0 and 1.</li>
-            <li><strong>Decimal:</strong> Base-10 system, the standard system for denoting integer and non-integer numbers.</li>
-            <li><strong>Hexadecimal:</strong> Base-16 system, often used in programming to represent large binary numbers more compactly.</li>
-        </ul>
+        <h1>Unit 2: Number System and Boolean Logic</h1>
+    <h2>Introduction to Number Systems</h2>
+    <p>Computers use different number systems to represent data. These systems include decimal, binary, octal, and hexadecimal.</p>
 
-        <h2>Boolean Logic</h2>
-        <p>Boolean logic is fundamental in computing for decision-making and circuit design. Key Boolean operations include:</p>
-        <ul>
-            <li><strong>AND:</strong> Results in true if both operands are true.</li>
-            <li><strong>OR:</strong> Results in true if at least one operand is true.</li>
-            <li><strong>NOT:</strong> Inverts the value of the operand.</li>
-            <li><strong>XOR:</strong> Results in true if only one operand is true, but not both.</li>
-        </ul>
-    </section>
+    <h2>Decimal Number System</h2>
+    <p>The decimal system is base 10, used in everyday arithmetic. It includes digits from 0 to 9.</p>
 
-    <footer>
-        <p>&copy; 2025 Number System and Boolean Logic</p>
-    </footer>
+    <h2>Binary Number System</h2>
+    <p>The binary system is base 2, used by computers for processing. It includes only two digits: 0 and 1.</p>
+
+    <h2>Octal Number System</h2>
+    <p>The octal system is base 8, sometimes used in programming. It includes digits from 0 to 7.</p>
+
+    <h2>Hexadecimal Number System</h2>
+    <p>The hexadecimal system is base 16, commonly used in programming and web design. It includes digits from 0 to 9 and letters A to F.</p>
+
+    <h2>Conversion Between Number Systems</h2>
+    <p>Converting between these systems is essential for programming and computer operations:
+        <ul>
+            <li><strong>Decimal to Binary:</strong> Divide by 2 until quotient is 0.</li>
+            <li><strong>Binary to Decimal:</strong> Multiply each digit by 2^n from right to left.</li>
+            <li><strong>Decimal to Octal:</strong> Divide by 8 until quotient is 0.</li>
+            <li><strong>Octal to Decimal:</strong> Multiply each digit by 8^n from right to left.</li>
+            <li><strong>Decimal to Hexadecimal:</strong> Divide by 16 until quotient is 0.</li>
+            <li><strong>Hexadecimal to Decimal:</strong> Multiply each digit by 16^n from right to left.</li>
+        </ul>
+    </p>
+
+    <h2>Binary Arithmetic Operations</h2>
+    <p>Binary arithmetic involves addition and subtraction:
+        <ul>
+            <li><strong>Binary Addition:</strong> Similar to decimal addition but with carry rules for binary.</li>
+            <li><strong>Binary Subtraction:</strong> Can be performed using one's complement or two's complement methods.</li>
+        </ul>
+    </p>
+
+    <h2>One’s and Two’s Complement Methods</h2>
+    <p>These methods are used for binary subtraction:
+        <ul>
+            <li><strong>One’s Complement:</strong> Invert all bits, then add 1.</li>
+            <li><strong>Two’s Complement:</strong> Invert all bits, add 1, and discard the carry.</li>
+        </ul>
+    </p>
+
+    <h2>Boolean Algebra</h2>
+    <p>Boolean algebra is a branch of mathematics that deals with logical operations:
+        <ul>
+            <li><strong>Boolean Values:</strong> True (1) and False (0).</li>
+            <li><strong>Truth Tables:</strong> Tables used to evaluate Boolean expressions.</li>
+            <li><strong>Boolean Expressions:</strong> Combinations of variables and operators.</li>
+            <li><strong>Boolean Functions:</strong> Functions that return Boolean values.</li>
+        </ul>
+    </p>
+
+    <h2>Logic Gates</h2>
+    <p>Logic gates are the building blocks of digital circuits:
+        <ul>
+            <li><strong>AND Gate:</strong> Returns True if both inputs are True.</li>
+            <li><strong>OR Gate:</strong> Returns True if either input is True.</li>
+            <li><strong>NOT Gate:</strong> Inverts the input.</li>
+            <li><strong>NAND Gate:</strong> Returns True if not both inputs are True.</li>
+            <li><strong>NOR Gate:</strong> Returns True if neither input is True.</li>
+            <li><strong>XOR Gate:</strong> Returns True if inputs are different.</li>
+            <li><strong>XNOR Gate:</strong> Returns True if inputs are the same.</li>
+        </ul>
+    </p>
+
+    <h2>Laws of Boolean Algebra</h2>
+    <p>These laws govern how Boolean expressions can be manipulated:
+        <ul>
+            <li><strong>Boolean Identities:</strong> A AND A = A, A OR A = A.</li>
+            <li><strong>Complement Laws:</strong> A AND NOT A = 0, A OR NOT A = 1.</li>
+            <li><strong>Identity Laws:</strong> A AND 1 = A, A OR 0 = A.</li>
+            <li><strong>Commutative Laws:</strong> A AND B = B AND A, A OR B = B OR A.</li>
+            <li><strong>Associative Laws:</strong> (A AND B) AND C = A AND (B AND C), (A OR B) OR C = A OR (B OR C).</li>
+            <li><strong>Distributive Laws:</strong> A AND (B OR C) = (A AND B) OR (A AND C), A OR (B AND C) = (A OR B) AND (A OR C).</li>
+        </ul>
+    </p>
+
+    <h2>Verification of Laws Using Truth Tables</h2>
+    <p>Truth tables are used to verify the validity of Boolean laws by evaluating all possible combinations of inputs.</p>
+
+    <h2>Applications of Boolean Logic</h2>
+    <p>Boolean logic is fundamental in digital electronics and computer programming, used in designing digital circuits and algorithms. It is also applied in decision-making processes and data analysis.</p>
+
+    <h2>Conclusion</h2>
+    <p>In conclusion, number systems and Boolean logic are foundational concepts in computer science, enabling the creation of digital systems and algorithms that underpin modern technology.</p>
+
+    <h2>Future Developments in Boolean Logic</h2>
+    <p>Advancements in Boolean logic continue to influence the development of more complex digital systems, including quantum computing and artificial intelligence.</p>
+
+    <h2>Impact of Boolean Logic on Society</h2>
+    <p>Boolean logic has a profound impact on society, driving innovations in technology and communication. Its applications extend beyond computing to fields like engineering and economics.</p>
+
+    <h2>Boolean Logic in Real-World Applications</h2>
+    <p>Boolean logic is used in real-world applications such as:
+        <ul>
+            <li><strong>Database Queries:</strong> To filter data based on conditions.</li>
+            <li><strong>Search Engines:</strong> To refine search results.</li>
+            <li><strong>Control Systems:</strong> In automation and robotics.</li>
+        </ul>
+    </p>
+
+    <h2>Challenges in Boolean Logic</h2>
+    <p>Despite its importance, Boolean logic faces challenges such as complexity in large-scale systems and the need for efficient algorithms to solve complex problems.</p>
+
+    <h2>Evolution of Boolean Logic</h2>
+    <p>Boolean logic has evolved over time, from its origins in mathematical logic to its current applications in computer science and engineering.</p>
+
+    <h2>Boolean Logic in Education</h2>
+    <p>Teaching Boolean logic in educational settings helps develop problem-solving skills and logical thinking among students.</p>
+
+    <h2>Boolean Logic in Research</h2>
+    <p>Research in Boolean logic continues to explore new applications and improvements in digital systems, contributing to technological advancements.</p>
 </body>
 </html>
+
