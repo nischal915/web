@@ -4,6 +4,124 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web Technology I</title>
+    <style>
+        /* Simple Reset */
+        body, h1, h2, h3, p, ul, li {
+            margin: 0;
+            padding: 0;
+        }
+        
+        /* Basic Styling */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+        
+        /* Header Styles */
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 25px;
+            margin-bottom: 30px;
+            border-radius: 5px;
+            text-align: center;
+        }
+        
+        header h1 {
+            margin-bottom: 10px;
+        }
+        
+        /* Section Styling */
+        section {
+            background-color: white;
+            padding: 25px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            margin-bottom: 30px;
+        }
+        
+        /* Heading Styles */
+        h1 {
+            font-size: 2.2em;
+        }
+        
+        h2 {
+            color: #2c3e50;
+            font-size: 1.8em;
+            margin: 30px 0 15px;
+            padding-bottom: 8px;
+            border-bottom: 2px solid #3498db;
+        }
+        
+        h3 {
+            color: #2980b9;
+            font-size: 1.4em;
+            margin: 20px 0 10px;
+        }
+        
+        /* Text Styles */
+        p {
+            margin-bottom: 15px;
+        }
+        
+        /* List Styles */
+        ul {
+            margin: 15px 0 20px 25px;
+        }
+        
+        li {
+            margin-bottom: 8px;
+        }
+        
+        /* Code Blocks */
+        code, pre {
+            font-family: 'Courier New', Courier, monospace;
+            background-color: #f0f0f0;
+            padding: 2px 5px;
+            border-radius: 3px;
+        }
+        
+        pre {
+            display: block;
+            padding: 15px;
+            margin: 15px 0;
+            overflow-x: auto;
+            border-left: 4px solid #3498db;
+        }
+        
+        /* Footer */
+        footer {
+            text-align: center;
+            margin-top: 30px;
+            padding: 20px;
+            color: #7f8c8d;
+            border-top: 1px solid #ddd;
+        }
+        
+        /* Responsive Design */
+        @media (max-width: 600px) {
+            body {
+                padding: 10px;
+            }
+            
+            header, section {
+                padding: 15px;
+            }
+            
+            h1 {
+                font-size: 1.8em;
+            }
+            
+            h2 {
+                font-size: 1.5em;
+            }
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -92,15 +210,15 @@
         <ul>
             <li><strong>Ordered List (<code>&lt;ol&gt;</code>):</strong> Displays a numbered list. Example:
                 <pre><code>&lt;ol&gt;
-                    &lt;li&gt;Item 1&lt;/li&gt;
-                    &lt;li&gt;Item 2&lt;/li&gt;
-                &lt;/ol&gt;</code></pre>
+    &lt;li&gt;Item 1&lt;/li&gt;
+    &lt;li&gt;Item 2&lt;/li&gt;
+&lt;/ol&gt;</code></pre>
             </li>
             <li><strong>Unordered List (<code>&lt;ul&gt;</code>):</strong> Displays a bulleted list. Example:
                 <pre><code>&lt;ul&gt;
-                    &lt;li&gt;Bullet 1&lt;/li&gt;
-                    &lt;li&gt;Bullet 2&lt;/li&gt;
-                &lt;/ul&gt;</code></pre>
+    &lt;li&gt;Bullet 1&lt;/li&gt;
+    &lt;li&gt;Bullet 2&lt;/li&gt;
+&lt;/ul&gt;</code></pre>
             </li>
         </ul>
 
@@ -122,9 +240,9 @@
 
         <h3>5.1 Example of a Basic Form</h3>
         <pre><code>&lt;form action="submit.php"&gt;
-            &lt;input type="text" name="username"&gt;
-            &lt;input type="submit" value="Submit"&gt;
-        &lt;/form&gt;</code></pre>
+    &lt;input type="text" name="username"&gt;
+    &lt;input type="submit" value="Submit"&gt;
+&lt;/form&gt;</code></pre>
 
         <h2>6. Cascading Style Sheets (CSS)</h2>
         <p>CSS is used to style HTML elements and control the layout of a web page. It separates the content (HTML) from the style and design (CSS).</p>
@@ -139,13 +257,12 @@
         <h3>6.3 Embedded CSS</h3>
         <p>Embedded CSS is written within the <code>&lt;style&gt;</code> tag in the <code>&lt;head&gt;</code> section of the HTML document. Example:</p>
         <pre><code>&lt;style&gt;
-            p { color: blue; }
-        &lt;/style&gt;</code></pre>
+    p { color: blue; }
+&lt;/style&gt;</code></pre>
 
         <h3>6.4 External CSS</h3>
         <p>External CSS is written in a separate file with a <code>.css</code> extension and linked to the HTML document. Example:</p>
         <pre><code>&lt;link rel="stylesheet" href="styles.css"&gt;</code></pre>
-
     </section>
 
     <footer>
